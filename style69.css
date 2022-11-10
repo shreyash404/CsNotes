@@ -249,7 +249,7 @@ img{
   width: 100%;
   overflow: auto;
 }
-.section h1 {
+h1 {
   font-size: 35px;
   font-weight: 500;
   line-height: 6vh;
