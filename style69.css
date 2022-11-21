@@ -244,13 +244,15 @@ img{
 /* section */
 .blog{
   display: block;
+  Background:gray;
   text-align: center;
-  height: 100%;
-  width: 100%;
+  margin: 30px, 30px;
+
   overflow: auto;
 }
 h1 {
-  font-size: 35px;
+  font-size: 19px;
+  font-style:bold;
   font-weight: 500;
   line-height: 6vh;
   color: #f7f8f9;
