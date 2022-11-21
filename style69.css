@@ -242,11 +242,12 @@ img{
 }*/
 
 /* section */
-.blog{
+.blog h1{
+  Border-top: 5px, red;
   display: block;
   Background:gray;
   text-align: center;
-  margin: 30px, 30px;
+  margin: 30px, 80px;
 
   overflow: auto;
 }
