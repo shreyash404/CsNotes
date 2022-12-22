@@ -12,12 +12,12 @@ html{
   box-sizing: border-box;
 }
 ::selection {
-  background: rgb(155, 1, 186);
+  background: #7f01ce;
   color: rgb(255, 255, 255);
 }
 
 ::-moz-selection {
-  background: rgb(132, 3, 161);
+  background: #7701c1;
   color: rgb(255, 255, 255);
 }
 
