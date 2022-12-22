@@ -11,6 +11,15 @@ html{
   padding: 0;
   box-sizing: border-box;
 }
+::selection {
+  background: rgb(155, 1, 186);
+  color: rgb(255, 255, 255);
+}
+
+::-moz-selection {
+  background: rgb(132, 3, 161);
+  color: rgb(255, 255, 255);
+}
 
 p{
   margin: auto;
