@@ -549,7 +549,10 @@ footer p{
   
     
 }
-.header{
+.header1{
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 1;
   font-size: 35px;
   color: #8b00e2;
 }
