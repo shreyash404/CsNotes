@@ -374,7 +374,8 @@ h1 {
   color: #f7f8f9;
   border-bottom-style: line;
   overflow: auto;
-  box-shadow: 2px 2px 2px 4px rgba(81, 3, 149, 0.403);
+  box-shadow: 2px 2px 2px 4px rgba(123, 3, 175, 0.465);
+  
 }
 /*footer*/
 .sticy-footer {
@@ -745,7 +746,7 @@ footer p{
 /* subject pages */
 .goto a{
   display: block;
-  color: grey;
+  color: rgb(61, 213, 255);
   text-decoration: none;
 }
 .goto ul{
