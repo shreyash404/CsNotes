@@ -9,6 +9,7 @@ html{
 * {
     outine: solid #f00 1px !important;
   padding: 0;
+  
   box-sizing: border-box;
 }
 ::selection {
@@ -20,6 +21,12 @@ html{
   background: #7701c1;
   color: rgb(255, 255, 255);
 }
+
+h2,h3,h4,h5,p{
+   padding-left:30px ;
+  padding-right:30px ;
+}
+
 
 p{
   margin: auto;
@@ -37,6 +44,7 @@ body {
   margin: 0;
   position: relative;
   flex-direction: column;
+ 
 }
 
 /* header */
@@ -57,7 +65,7 @@ body {
   z-index: 1;
 }
 .header a {
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 500;
   padding: 2px 2px;
   text-decoration: none;
@@ -133,6 +141,10 @@ span{
 .menu-right ul{
 
   width: 17rem;
+}
+.dropdown-menu .download-width a{
+  font-size: 19px;
+  width: 15px;
 }
 .menu-item {
   display: flex;
@@ -294,8 +306,8 @@ footer p{
   display: flex;
   justify-content: space-between;
   text-align: center;
-  padding-left:50px;
-  padding-right: 50px;
+  padding-left:30px;
+  padding-right: 30px;
   padding-bottom: 5px;
   list-style: none;
   line-height: 20px;
@@ -346,6 +358,7 @@ footer p{
   font-weight: bold;
   justify-content: center;
   align-items: center;
+  color: #7f01ce;
   width: 1.5rem;
   height: 1.5rem;
   cursor: pointer;
@@ -396,6 +409,7 @@ footer p{
     margin: 0;
   }
   .menu-btn{
+    color: #7701c1;
     position: relative;
     display: flex;
   }
