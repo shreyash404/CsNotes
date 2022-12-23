@@ -281,6 +281,73 @@ img{
   opacity: 2;
   }
 
+  .info body {
+    
+    display: flex;
+    background-color: #000000;
+    color: #000000;
+    font-family: sans-serif;
+  }
+  
+  .info a {
+    color: #9b59b6;
+  }
+  
+  .info h1, h2, h3, h4, h5, h6 {
+    border-radius: 10px;
+    padding: 2px 4px;
+    box-shadow: 0 2px 4px rgba(163, 0, 204, 0.544);
+    color: #9b59b6;
+  }
+  .info h1{
+    color: #7701c1;
+    text-align: center;
+    padding: 15px,15px;
+
+  }
+  .info {
+   position:static;
+   background-color: #09020c;
+   background-image: linear-gradient(to top,#000000, #57056d, #000000);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2em;
+  }
+  
+  .info p {
+ 
+    line-height: 1.5;
+    margin: 1em 0;
+  }
+  
+  .info button {
+    background-color: #9b59b6;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    font-size: 1em;
+  }
+  
+  .info button:hover {
+    background-color: #8e44ad;
+  }
+  
+  input[type="text"], input[type="password"], textarea {
+    background-color: #060606;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #9b59b6;
+  }
   
 /* section */
 .blog h1{
@@ -299,13 +366,15 @@ img{
 
 }
 h1 {
+  padding: 24px;
   font-size: 19px;
   font-style:bold;
   font-weight: 500;
-  line-height: 5vh;
+  line-height: 1.5rem;
   color: #f7f8f9;
   border-bottom-style: line;
   overflow: auto;
+  box-shadow: 2px 2px 2px 4px rgba(81, 3, 149, 0.403);
 }
 /*footer*/
 .sticy-footer {
@@ -318,7 +387,7 @@ footer p{
 }
 .sticky-footer{
   
-  background-color:  #191e27;
+  background-color:  #101318;
   text-align: center;
   margin-top: auto;
 }
@@ -352,6 +421,7 @@ footer p{
 }
 .sticky-footer p{
   font-size: 9px;
+  color: #7701c1;
   background-color: #030000;
   text-align: center;
   bottom: 0;
