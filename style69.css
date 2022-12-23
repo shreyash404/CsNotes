@@ -79,7 +79,7 @@ strong {
   font-size: 28px;
 }
 span{
-  color: rgb(203, 9, 9);
+  color: #8b00e2;
 
 }
 .menu-items {
@@ -101,7 +101,7 @@ span{
   padding: 0.1rem 0.2rem;
   transition: all 0.3s ease-in-out;
   transform: scale(1.1 );
-  color: rgb(209, 32, 16);
+  color: #8b00e2;
 }
 .menu-items li a ul:hover ul {
   top: 70px;
@@ -413,11 +413,11 @@ footer p{
 }
 .menu-btn.open .menu-btn__lines::before {
   transform: rotate(45deg) translate(-1.5rem, 1.5rem);
-  background: #c21111;
+  background: #8b00e2;
 }
 .menu-btn.open .menu-btn__lines::after {
   transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
-  background: #c81212;
+  background:#8b00e2;
 }
 
 /* MEDIA QUERY */
