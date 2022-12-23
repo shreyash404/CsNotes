@@ -9,3 +9,4 @@ hiddenElements.forEach(((element, i) => {
 	element.style.transitionDelay = i * 200 + "ms";
 	hidingObserver.observe(element);
 }));
+

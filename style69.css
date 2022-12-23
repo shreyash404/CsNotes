@@ -261,12 +261,33 @@ img{
 .content .col .read-more:hover {
   color: #323c4e;
 }*/
+/*homepage slider*/
+#slider {
+  position: relative;
+  width:100%;
+  height:950rem;
+  overflow: hidden;
+  }
+  
+  .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 2s;
+  }
+  
+  .slide.active {
+  opacity: 2;
+  }
 
+  
 /* section */
 .blog h1{
+  color: #7701c1;
   Border-top: 5px, red;
   display: block;
-  Background:gray;
+  Background:rgb(0, 0, 0);
   text-align: center;
   margin: 30px, 80px;
 
@@ -281,7 +302,7 @@ h1 {
   font-size: 19px;
   font-style:bold;
   font-weight: 500;
-  line-height: 6vh;
+  line-height: 5vh;
   color: #f7f8f9;
   border-bottom-style: line;
   overflow: auto;
@@ -330,7 +351,7 @@ footer p{
   list-style: none;
 }
 .sticky-footer p{
-  font-size: 15px;
+  font-size: 9px;
   background-color: #030000;
   text-align: center;
   bottom: 0;
@@ -494,7 +515,7 @@ footer p{
     font-size: 1.1rem;
     margin: 0;
   }
-
+}
   /*.mega-menu .content {
     grid-template-columns: auto;
     padding: 1rem 1rem 0 1rem;
@@ -518,7 +539,13 @@ footer p{
   .min-about{
     padding: 30px 30px 30px 30px;
   }*/
-}
+  #slider {
+    width: 100%; /* Set the width of the image slider to 100% of the viewport */
+  }
+  #slider .slide {
+    width: 100%; /* Set the width of the images to 100% of the container */
+  }
+
 @media screen and (max-width: 470px) {
   /*html, body{
     width: 100%;
