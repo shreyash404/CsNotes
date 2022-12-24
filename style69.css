@@ -136,7 +136,14 @@ span{
   top: 0;
   left: 80%;
 }
-
+.menu-right li{
+  border-top-color: #8b00e2;
+  border-top-style: solid;
+}
+.menu-right ul{
+  border-bottom-color: #8b00e2;
+  border-bottom-style: solid;
+}
 
 .menu-right ul{
 
@@ -168,6 +175,7 @@ span{
 .dropdown:hover .dropdown-menu ul{
 transition: all .05s ease;
 top: 0;
+border-bottom-color:#8b00e2 ;
 }
 .dropdown-right:hover .menu-right {
   background:0, 0, 0, .70;
@@ -575,7 +583,7 @@ footer p{
     width: 18rem;
     max-height: 0;
     transform: scaleY(0);
-    transform-origin: top;
+    transform-origin: left;
     overflow: hidden;
     transition: all 0.2s ease;
   }
