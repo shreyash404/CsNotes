@@ -24,3 +24,11 @@ slides[currentSlide].className = 'slide';
 currentSlide = (currentSlide+1)%slides.length;
 slides[currentSlide].className = 'slide active';
 }
+
+const homepageDivs = document.querySelectorAll('.homepage');
+
+homepageDivs.forEach(div => {
+  div.addEventListener('click', () => {
+    div.classList.toggle('folded');
+  });
+});
