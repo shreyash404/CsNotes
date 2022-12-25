@@ -12,6 +12,7 @@ body{
     justify-content: center;
 } 
 .wrapper{
+    margin-bottom: auto;
     text-align: center;
 }
 .wrapper h2{
