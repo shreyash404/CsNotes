@@ -43,7 +43,7 @@ form.addEventListener('submit', (event) => {
   const query = input.value;
 
   // Redirect to the search results page with the query in the URL
-  window.location.href = `//index/search-results.html?q=${query}`;
+  window.location.href = `/index-search-results.html?q=${query}`;
 
 });
 
