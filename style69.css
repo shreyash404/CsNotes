@@ -74,7 +74,25 @@ body {
 .header ul {
   list-style: none;
 }
+/*}
+.logo{
+  position: relative;
+}
+
+.logo :before {
+ margin: -13px -30px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.9rem; /* adjust the width to match the size of the logo icon */
+  /*height: 2.9rem; /* adjust the height to match the size of the logo icon */
+ /* background-image: url("fevicon.png"); /* replace with the actual file path to your logo icon */
+ /* background-size: cover;
+}*/
+
 strong {
+ /* margin: 24px;*/
   letter-spacing: 2px;
   font-size: 28px;
 }
@@ -684,6 +702,25 @@ footer p{
 .software-head h1{
   font-size: 25px;
   margin: auto;
+}
+/*terms & conditions*/
+.terms {
+  margin: 20px;
+  background-color: #121212;
+  
+}
+.terms h1, h2{
+ background-color: #171b20;
+}
+.terms h1{
+  text-align: center;
+}
+.terms li{
+  margin: 20px 30px;
+}
+.terms p,h1,h2{
+  color: white;
+  padding: 10px 30px;
 }
 
 /*homepage*/
