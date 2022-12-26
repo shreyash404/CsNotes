@@ -9,7 +9,6 @@ html{
 * {
     
   padding: 0;
-  
   box-sizing: border-box;
 }
 ::selection {
@@ -23,12 +22,14 @@ html{
 }
 
 h2,h3,h4,h5,p{
+
    padding-left:30px ;
   padding-right:30px ;
 }
 
 
 p{
+
   margin: auto;
   padding: 0;
 }
@@ -44,8 +45,11 @@ body {
   margin: 0;
   position: relative;
   flex-direction: column;
- 
+ /*light mode*/
+
 }
+
+
 
 /* header */
 .header {
